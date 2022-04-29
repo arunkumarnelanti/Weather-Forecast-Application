@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Lora', serif;
+  background-image: url("background.jpg");
+  background-size: cover;
+}
+
+.container {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  
+}
+.content{
+  height: max-content;
+  width: max-content;
+  border-radius: 30px !important;
+  background: rgba(255, 255, 255, 0.1) !important;
+  backdrop-filter: blur(5px);
+  padding: 20px;
+}
+
+.weather {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 15px 0;
+  font-size: 1.5rem;
+}
+
+#location {
+  font-size: 3rem;
+  font-weight: 800;
+  font-family: Aclonica;
+}
+.desc {
+  font-size: 1.5rem;
+  text-transform: capitalize;
+  font-family: Akaya Telivigala;
+}
+
+.circle {
+  background-color: black;
+  border-radius: 50px;
+  height: 15px;
+  width: 15px;
+  margin: 0 15px;
+}
